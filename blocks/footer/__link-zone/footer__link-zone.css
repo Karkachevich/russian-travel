@@ -5,6 +5,14 @@
   flex-direction: row;
 }
 
+@media screen and (max-width: 425px) {
+  .footer__link-zone {
+    margin-bottom: 48px;
+    padding: 0;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__link-zone {
     margin-bottom: 48px;
