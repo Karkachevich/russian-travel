@@ -13,9 +13,7 @@
   margin-right: 0;
 }
 
-.header__lang-link:focus {
-  text-decoration: underline;
-}
+
 
 @media screen and (max-width: 425px) {
   .header__lang-link {
