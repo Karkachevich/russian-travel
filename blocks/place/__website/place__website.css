@@ -4,7 +4,8 @@
   align-self: end;
   justify-self: start;
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 375px) {
   .place__website {
    margin-left: 16px;
   }

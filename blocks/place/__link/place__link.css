@@ -3,8 +3,8 @@
   font-size: 18px;
   line-height: 22px;
   color: white;
-  text-decoration-line: underline;
-  margin: 0;
+  text-decoration-line: none;
+  border-bottom: 2px solid white;
 }
 
 
