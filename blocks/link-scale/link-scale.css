@@ -1,0 +1,7 @@
+.link-scale {
+  transition: linear .3s;
+}
+
+.link-scale:hover {
+  transform: scale(1.1);
+}
