@@ -2,6 +2,8 @@
   margin: 0  auto;
   max-width: 984px;
   padding-top: 92px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,14 +21,18 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    padding-top: 64px;
     max-width: 720px;
-    max-width: calc(100% / 1.1);
+  }
+}
+@media screen and (max-width: 736px) {
+  .places {
+   max-width: calc(100% / 1.1);
   }
 }
 
 @media screen and (max-width: 375px) {
   .places{
+    padding-top: 64px;
     max-width: 320px;
   }
 }

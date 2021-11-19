@@ -4,7 +4,7 @@
   grid-template-columns: 460px auto;
   grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
-
+  align-self:center;
 }
 .place:last-of-type {
   margin-bottom: 0;
